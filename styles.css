@@ -102,9 +102,10 @@ body {
 }
 
 .mensaje-invitacion {
-    padding: 35px 0;
+    padding: 40px 0;
     width: 60%;
     font-family: 'Brush Script MT', cursive;
+    font-size: 1.0rem;
 }
 
 .gold-text {
