@@ -89,6 +89,22 @@ body {
     position: relative;
 }
 
+@media only screen and (max-width: 600px) {
+.baby-shower {
+    font-family: times;
+    color: var(--primary-color);
+    font-size: 0.75rem;
+}
+.mensaje-invitacion {
+    padding: 30px 0;
+    width: 60%;
+    font-family: "Brush Script MT", monospace;
+}
+.separator {
+    width: 100%;
+    height: min(47vw,320px);
+}
+}
 /* textos */
 @media (min-width: 601px) {
 .baby-shower {
@@ -106,25 +122,6 @@ body {
     height: min(200vw,330px);
 }
 }
-
-@media only screen and (max-width: 600px) {
-	.baby-shower {
-    font-family: times;
-    color: var(--primary-color);
-    font-size: 0.75rem;
-	}
-.mensaje-invitacion {
-    padding: 30px 0;
-    width: 60%;
-    font-family: "Brush Script MT", monospace;
-}
-.separator {
-    width: 100%;
-    height: min(47vw,320px);
-}
-
-}
-
 
 .gold-text {
     background: var(--gradiente-oro);
