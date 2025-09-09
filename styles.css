@@ -102,7 +102,7 @@ body {
 }
 .separator {
     width: 100%;
-    height: min(50vw,320px);
+    height: min(45vw,320px);
 }
 }
 /* textos */
