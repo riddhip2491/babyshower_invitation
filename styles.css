@@ -91,7 +91,7 @@ body {
 
 @media (max-width: 600px) {
 .baby-shower {
-    font-family: jost;
+    font-family: nova;
     color: var(--primary-color);
     font-size: 1.0rem;
 }
@@ -108,7 +108,7 @@ body {
 /* textos */
 @media (min-width: 601px) {
 .baby-shower {
-    font-family: jost;
+    font-family: times;
     color: var(--primary-color);
     font-size: 1.35rem;
 }
