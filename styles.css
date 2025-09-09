@@ -89,24 +89,42 @@ body {
     position: relative;
 }
 
-.separator {
-    width: 100%;
-    height: min(48vw,200px);
-}
-
 /* textos */
+@media (min-width: 601px) {
 .baby-shower {
     font-family: times;
     color: var(--primary-color);
-    font-size: 1.0rem;
+    font-size: 1.35rem;
+}
+.mensaje-invitacion {
+    padding: 50px 0;
+    width: 50%;
+    font-family: "Lucida Handwriting", monospace;
+}
+.separator {
+    width: 100%;
+    height: min(200vw,330px);
+}
 }
 
+@media only screen and (max-width: 600px) {
+	.baby-shower {
+    font-family: times;
+    color: var(--primary-color);
+    font-size: 0.75rem;
+	}
 .mensaje-invitacion {
-    padding: 35px 0;
+    padding: 30px 0;
     width: 60%;
-    font-family: 'Brush Script MT', cursive;
-    font-size: 1.25rem;
+    font-family: "Lucida Handwriting", monospace;
 }
+.separator {
+    width: 100%;
+    height: min(47vw,320px);
+}
+
+}
+
 
 .gold-text {
     background: var(--gradiente-oro);
