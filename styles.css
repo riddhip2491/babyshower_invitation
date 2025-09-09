@@ -89,7 +89,7 @@ body {
     position: relative;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
 .baby-shower {
     font-family: times;
     color: var(--primary-color);
@@ -102,7 +102,7 @@ body {
 }
 .separator {
     width: 100%;
-    height: min(47vw,320px);
+    height: min(50vw,320px);
 }
 }
 /* textos */
