@@ -93,12 +93,12 @@ body {
 .baby-shower {
     font-family: times;
     color: var(--primary-color);
-    font-size: 0.75rem;
+    font-size: 0.78rem;
 }
 .mensaje-invitacion {
     padding: 30px 0;
     width: 60%;
-    font-family: "Brush Script MT", monospace;
+    font-family: "Lucida Handwriting", monospace;
 }
 .separator {
     width: 100%;
