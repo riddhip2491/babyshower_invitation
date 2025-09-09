@@ -91,7 +91,7 @@ body {
 
 @media (max-width: 600px) {
 .baby-shower {
-    font-family: nova;
+    font-family: times;
     color: var(--primary-color);
     font-size: 1.0rem;
 }
