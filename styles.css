@@ -104,20 +104,20 @@ body {
     font-family: times;
     color: var(--primary-color);
     font-size: 1.0rem;
-    padding-left: 30px;
-    width: 60%;
-    height: 75px;
+    /*padding-left: 30px;*/
+    width: 70%;
+    height: 70px;
    
 }
 .mensaje-invitacion {
     padding: 55px 0;
     width: 55%;
     font-family: nova;
-    height: 75px;
+    height: 80px;
 }
 .separator {
     width: 100%;
-    height: min(58vw,350px); 
+    height: min(58vw,340px); 
 }
 }
 /* textos */
