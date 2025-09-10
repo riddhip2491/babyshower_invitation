@@ -106,13 +106,14 @@ body {
     font-size: 1.0rem;
     padding-left: 30px;
     width: 60%;
-    height: 65px;
+    height: 50px;
    
 }
 .mensaje-invitacion {
     padding: 55px 0;
     width: 55%;
     font-family: nova;
+    height: 10px;
 }
 .separator {
     width: 100%;
@@ -136,7 +137,6 @@ body {
 .mensaje-invitacion {
     padding: 50px 0;
     width: 50%;
-    height: 10px;
     font-family: 'Lucida Handwriting', monospace;
 }
 .separator {
