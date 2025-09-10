@@ -29,9 +29,14 @@
     padding: 0;
 }
 
+html {
+  -webkit-text-size-adjust: 100%; /* Prevent text auto-scaling */
+}
+
 body {
     min-height: -webkit-fill-available;
     min-height: 100vh;
+    min-height: 100dvh;
 }
 
 /* layout */
@@ -58,7 +63,8 @@ body {
 .bottom-image,
 .estrellas {
     width: 100%;
-    height: auto;
+    height: 100dvh;
+    min-height: -webkit-fill-available;
     display: block;
 }
 
@@ -69,14 +75,6 @@ body {
     left: 0;
 }
 
-.gatito {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: -webkit-fill-available;
-    width: fill-available;
-}
 
 .bottom-image {
     position: absolute;
@@ -96,27 +94,44 @@ body {
 }
 
 @media (max-width: 600px) {
+.gatito {
+    width: 75px;
+    height: 75px;
+
+}
+
 .baby-shower {
     font-family: times;
     color: var(--primary-color);
     font-size: 1.0rem;
+    padding-left: 30px;
+    width: 60%;
+    height: 65px;
+   
 }
 .mensaje-invitacion {
-    padding: 30px 0;
-    width: 58%;
+    padding: 55px 0;
+    width: 55%;
     font-family: nova;
 }
 .separator {
     width: 100%;
-    height: min(48vw,325px);
+    height: min(78vw,525px); 
 }
 }
 /* textos */
 @media (min-width: 601px) {
+.gatito {
+    width: 175px;
+    height: 175px;
+
+}
 .baby-shower {
     font-family: times;
     color: var(--primary-color);
     font-size: 1.35rem;
+    height: 150px;
+    padding-left: 55px;
 }
 .mensaje-invitacion {
     padding: 50px 0;
@@ -125,7 +140,7 @@ body {
 }
 .separator {
     width: 100%;
-    height: min(200vw,330px);
+    height: min(58vw,240px);
 }
 }
 
@@ -144,15 +159,17 @@ body {
 }
 
 .fecha {
-    width: 70%;
+    width: 66%;
     display: flex;
     align-items: center;
+    align-items: stretch;
     justify-content: center;
 }
 
 .fecha p {
+    flex: 1;
     width: 100%;
-    padding-bottom: 16px;
+    padding-bottom: 1px;
     border-bottom: 2px solid var(--border-color);
     background-color: var(--date-color);
     color: var(--secondary-color);
