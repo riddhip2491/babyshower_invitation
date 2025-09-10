@@ -93,7 +93,7 @@ body {
     position: relative;
 }
 
-@media (max-width: 600px) {
+@media  (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3)  {
 .gatito {
     width: 75px;
     height: 75px;
@@ -116,11 +116,38 @@ body {
 }
 .separator {
     width: 100%;
-    height: min(48vw,325px); 
+    height: min(48vw,350px); 
+}
+}
+/* For Android */
+@media (max-width: 1080px) and (min-width: 360px)   {
+.gatito {
+    width: 75px;
+    height: 75px;
+
+}
+
+.baby-shower {
+    font-family: times;
+    color: var(--primary-color);
+    font-size: 1.0rem;
+    padding-left: 30px;
+    width: 60%;
+    height: 85px;
+   
+}
+.mensaje-invitacion {
+    padding: 55px 0;
+    width: 55%;
+    font-family: nova;
+}
+.separator {
+    width: 100%;
+    height: min(48vw,375px); 
 }
 }
 /* textos */
-@media (min-width: 601px) {
+@media (min-width: 1024px) {
 .gatito {
     width: 175px;
     height: 175px;
