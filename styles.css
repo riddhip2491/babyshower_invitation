@@ -52,25 +52,13 @@ body {
 }
 
 /* imagenes */
-@media  (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
-    .top-image {
-        width: 100%;
-        min-height: 100dvh;
-        object-fit: cover; 
-        position: absolute;
-        display: block;
-    }
-}
-@media (max-width: 1080px) and (min-width: 360px) {
+@media (max-width: 600px) {
     .top-image {
         width: 100%;
         height: 100%;
-        object-fit: cover; 
         display: block;
     }
 }
-
-@media (min-width: 1024px){
 .top-image,
 .bottom-image,
 .estrellas {
@@ -79,7 +67,7 @@ body {
     min-height: -webkit-fill-available;
     display: block;
 }
-}
+
 .top-image,
 .estrellas {
     position: absolute;
@@ -105,7 +93,7 @@ body {
     position: relative;
 }
 
-@media  (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3)  {
+@media (max-width: 600px) {
 .gatito {
     width: 75px;
     height: 75px;
@@ -118,7 +106,7 @@ body {
     font-size: 1.0rem;
     padding-left: 30px;
     width: 60%;
-    height: 1px;
+    height: 65px;
    
 }
 .mensaje-invitacion {
@@ -128,38 +116,11 @@ body {
 }
 .separator {
     width: 100%;
-    height: min(58vw,430px); 
-}
-}
-/* For Android */
-@media (max-width: 1080px) and (min-width: 360px)   {
-.gatito {
-    width: 75px;
-    height: 75px;
-
-}
-
-.baby-shower {
-    font-family: times;
-    color: var(--primary-color);
-    font-size: 1.0rem;
-    padding-left: 30px;
-    width: 60%;
-    height: 85px;
-   
-}
-.mensaje-invitacion {
-    padding: 55px 0;
-    width: 55%;
-    font-family: nova;
-}
-.separator {
-    width: 100%;
-    height: min(48vw,375px); 
+    height: min(48vw,325px); 
 }
 }
 /* textos */
-@media (min-width: 1024px) {
+@media (min-width: 601px) {
 .gatito {
     width: 175px;
     height: 175px;
