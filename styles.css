@@ -106,7 +106,7 @@ body {
     font-size: 1.0rem;
     padding-left: 30px;
     width: 60%;
-    height: 65px;
+    height: 50px;
    
 }
 .mensaje-invitacion {
@@ -116,7 +116,7 @@ body {
 }
 .separator {
     width: 100%;
-    height: min(48vw,350px); 
+    height: min(58vw,395px); 
 }
 }
 /* For Android */
