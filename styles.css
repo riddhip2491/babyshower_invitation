@@ -106,18 +106,18 @@ body {
     font-size: 1.0rem;
     padding-left: 30px;
     width: 60%;
-    height: 50px;
+    height: 55px;
    
 }
 .mensaje-invitacion {
     padding: 55px 0;
     width: 55%;
     font-family: nova;
-    height: 10px;
+    height: 40px;
 }
 .separator {
     width: 100%;
-    height: min(48vw,325px); 
+    height: min(48vw,335px); 
 }
 }
 /* textos */
