@@ -116,7 +116,7 @@ body {
 }
 .separator {
     width: 100%;
-    height: min(78vw,525px); 
+    height: min(48vw,275px); 
 }
 }
 /* textos */
