@@ -58,6 +58,7 @@ body {
         height: auto;
         min-height: -webkit-fill-available;
         display: block;
+        object-fit: cover;
     }
 }
 .top-image,
@@ -67,6 +68,7 @@ body {
     height: auto;
     min-height: -webkit-fill-available;
     display: block;
+    object-fit: cover;
 }
 
 .top-image,
