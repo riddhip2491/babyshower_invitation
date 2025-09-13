@@ -116,7 +116,7 @@ body {
     padding: 55px 0;
     width: 50%;
     font-family: nova;
-    height: 80px;
+    height: 85px;
 }
 .separator {
     width: 100%;
@@ -164,6 +164,7 @@ body {
 
 .fecha {
     width: 66%;
+    height: 10px;
     display: flex;
     align-items: center;
     align-items: stretch;
