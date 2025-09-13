@@ -29,9 +29,9 @@
     padding: 0;
 }
 
-html {
+/*html {
   -webkit-text-size-adjust: 100%; /* Prevent text auto-scaling */
-}
+}*/
 
 body {
     min-height: -webkit-fill-available;
