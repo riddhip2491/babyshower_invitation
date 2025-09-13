@@ -102,7 +102,6 @@ body {
     height: 75px;
 
 }
-
 .baby-shower {
     font-family: times;
     color: var(--primary-color);
@@ -140,6 +139,7 @@ body {
 .mensaje-invitacion {
     padding: 50px 0;
     width: 50%;
+    height: 185px;
     font-family: 'Lucida Handwriting', monospace;
 }
 .separator {
