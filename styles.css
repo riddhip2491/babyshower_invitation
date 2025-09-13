@@ -164,6 +164,7 @@ body {
 
 .fecha {
     width: 66%;
+    height: 10%;
     display: flex;
     align-items: center;
     align-items: stretch;
