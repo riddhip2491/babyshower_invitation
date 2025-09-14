@@ -223,7 +223,7 @@ a {
     
     	 font-family: 'Baloo 2', cursive;
     font-weight: bold;
-      background: linear-gradient(90deg, #ee1515, #3b4cca); /* top to bottom */
+      background: linear-gradient(90deg, #3b4cca, #000000); /* top to bottom */
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       display: inline;
