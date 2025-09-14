@@ -29,13 +29,7 @@
     padding: 0;
 }
 
-/*html {
-  -webkit-text-size-adjust: 100%; /* Prevent text auto-scaling */
-}*/
-
 body {
-     /*min-height: -webkit-fill-available;
-   min-height: 100dvh;*/
     min-height: 100vh;
 }
 
@@ -108,7 +102,7 @@ body {
     font-size: 1.0rem;
     /*padding-left: 30px;*/
     width: 58%;
-    height: 60px;
+    height: 66px;
    
 }
 .mensaje-invitacion {
@@ -119,7 +113,7 @@ body {
 }
 .separator {
     width: 100%;
-    height: min(66vw,330px); 
+    height: min(58vw,330px); 
 }
 }
 /* textos */
@@ -219,7 +213,7 @@ a {
 
 .with-eight {
     
-    	font-family: 'Patrick Hand', cursive;
+    	font-family: 'Comic Sans MS';
       background: linear-gradient(90deg, #3b4cca, #000000); /* top to bottom */
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
