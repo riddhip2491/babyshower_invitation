@@ -221,7 +221,7 @@ a {
 
 .with-eight {
     
-    	 font-family: 'Comic Sans MS', cursive;
+    	 font-family: 'Comic Sans MS';
     font-weight: bold;
       background: linear-gradient(90deg, #3b4cca, #000000); /* top to bottom */
       -webkit-background-clip: text;
