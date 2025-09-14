@@ -215,13 +215,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 12px;
+    //padding-bottom: 5px;
     //border-bottom: 2px solid var(--border-color);
 }
 
 .with-eight {
     
-    	 font-family: 'Comic Sans MS';
+    	 font-family: times;
     font-weight: bold;
       background: linear-gradient(90deg, #3b4cca, #000000); /* top to bottom */
       -webkit-background-clip: text;
