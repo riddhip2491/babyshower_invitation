@@ -222,6 +222,7 @@ a {
 .with-eight {
     
     	 font-family: 'Baloo 2', cursive;
+    font-weight: bold;
       background: linear-gradient(90deg, #ee1515, #3b4cca); /* top to bottom */
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
