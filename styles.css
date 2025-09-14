@@ -205,7 +205,7 @@ a {
 
 .regalos {
     padding-top: 1px;
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -214,6 +214,7 @@ a {
 .with-eight {
     
     	font-family: 'Comic Neue';
+     font-size: 10px;
       background: linear-gradient(90deg, #3b4cca, #000000); /* top to bottom */
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
