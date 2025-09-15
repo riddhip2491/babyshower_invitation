@@ -236,7 +236,7 @@ line-height: 1;
     display: inline-block;
     color: var(--secondary-color);
     border: 0px solid #3b4cca;
-    border-radius: 4px;
+    border-radius: 50px;
     background-color: var(--date-color); /* light background for contrast */
     text-decoration: none;
     background-clip: padding-box;
